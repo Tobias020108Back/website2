@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Wotfard, Futura, -apple-system, sans-serif;
+  background-color: #161616;
+}
+
+::-webkit-scrollbar {
+  width: 0rem;
+}
+
+.custom-color-text {
+  color: #7d97fa;
+}
+
+.custom-bg {
+  background-color: #202020;
+  transition: all;
+}
+.custom-bcolor {
+  background-color: #242424;
+}
+
+.filter-bg:hover {
+  background-color: #292929;
+}
+
+.tag-bg {
+  background-color: #292929;
+}
+
+.custom-bcolor:hover {
+  background-color: #262626;
+}
+
+.center-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-margin-nav {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.custom-margin-body {
+
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+
+.custom-flex-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 13rem;
+}
+
+@media (max-width: 768px) {
+  .custom-margin-nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .custom-margin-body {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+  }
+  .custom-flex-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
