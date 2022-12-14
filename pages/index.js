@@ -45,7 +45,7 @@ export default function Home() {
           <div className="justify-center md:mb-0 mb-20">
             <h1 className="text-5xl font-normal mb-5 text-gray-200 md:text-6xl">Hey, I'm <span className='text-blue-500'>Tobias</span></h1>
             <h2 className="text-2xl font-thin ml-1 text-gray-200">I'm a 14 year old backend developer from Germany.</h2>
-            <h2 className="text-2xl font-thin ml-1 text-gray-200">I've been using a scripting language called <a href="https://luau-lang.org/" className='text-blue-500'>LuaU</a> for around 1.4 years now.</h2>
+            <h2 className="text-2xl font-thin ml-1 text-gray-200">I've been using a scripting language called <a href="https://luau-lang.org/" className='text-blue-500'>LuaU</a> for around 2 years now.</h2>
           </div>
           <div>
             <img src="https://lanyard.cnrad.dev/api/810711650226667540"></img>
